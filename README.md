@@ -1,1 +1,1 @@
-# vk-internship-vocoder-
+# vk-internship-vocoder
