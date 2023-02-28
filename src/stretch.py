@@ -6,8 +6,7 @@ from scipy import signal
 class Stretch:
     def __init__(self, path: str):
         self.stretched_wave = None
-        self.path = path
-        with open('../data/test_mono.wav', 'rb') as f:
+        with open(path, 'rb') as f:
             self.wave, self.sr = sf.read(f)
 
     def stretch(self,
